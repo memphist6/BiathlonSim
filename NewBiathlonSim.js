@@ -782,7 +782,9 @@ const sim = {
 
     assignCompData: () => {
 
-        console.log(localStorage.getItem('pursuitDeficits'));
+       // console.log(localStorage.getItem('pursuitDeficits'));
+        
+
         let deficits = getDeficits();
         console.log(deficits);
 
