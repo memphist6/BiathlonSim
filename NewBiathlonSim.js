@@ -241,7 +241,7 @@ const allAthletes = {
         new Biathlete('Fredrik Lindstroem','SWE', 1.4, 0.9, 1.3, 1.5, 1.0, 93.2, 83.7, 49.5, 47.5),
         new Biathlete('Bjoern Ferry', 'SWE', 1.3, 0.1, 0.0, 0.5, -0.6, 87.0, 87.6, 49.2, 43.9),
         new Biathlete('Carl Johan Bergman','SWE', 0.3, -0.7, -0.4, 0.1, 2.0, 83.1, 76.9, 49.2, 48.8),
-        new Biathlete('Dominik Windisch','ITA', 1.3, 0.0, -0.4, -0.1, 1.2, 82.9, 77.1, 51,9, 47.3),
+        new Biathlete('Dominik Windisch','ITA', 1.3, 0.0, -0.4, -0.1, 1.2, 82.9, 77.1, 51.9, 47.3),
         new Biathlete('Benjamin Weger','SUI', 1.1, 1.1, 1.0, 1.5, 2.3, 86.8, 86.8, 50.9, 49.5),
         new Biathlete('Julian Eberhard','AUT', 0.1, -0.4, -0.2, -0.7, -2.7, 77.6, 80.5, 49.9, 45.5),
         new Biathlete('Dominik Landertinger','AUT', -0.0, 0.7, 0.0, -0.9, -1.5, 89.0, 80.0, 52.3, 52.4),
