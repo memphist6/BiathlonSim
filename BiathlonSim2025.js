@@ -1259,9 +1259,20 @@ function getStartField() {
 }
 function getDeficits() {
     let deficits = localStorage.getItem('pursuitDeficits');
+    console.log("deficits in getDecifits:");
+    console.log(deficits);
+
     let timeArray = [];
+    if (!deficits)  {
+        console.log("No decifits found in localStorage. Returning from func getDecifits");
+        return timeArray;
+    }
 
     for (let indexStart = 0; true;) {
+
+        console.log("'deficits.indexOf(',', indexStart)' in getDecifits:");
+        console.log(deficits.indexOf(',', indexStart))
+
         let comma = deficits.indexOf(',', indexStart);
         let time;
 
